@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #1f2937;
+  background: #f5f7fb;
+  font-family: "Microsoft YaHei", "Segoe UI", sans-serif;
+  font-size: 14px;
+}
+
+.page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #dde3ec;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(24, 39, 75, 0.06);
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 22px;
+}
+
+.hint {
+  margin: 0 0 18px;
+  color: #667085;
+  line-height: 1.6;
+}
+
+label {
+  display: block;
+  margin: 14px 0 6px;
+  font-weight: 600;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 9px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  font: inherit;
+}
+
+textarea {
+  min-height: 330px;
+  resize: vertical;
+  line-height: 1.55;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+button {
+  min-width: 110px;
+  padding: 9px 16px;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  background: #2563eb;
+  cursor: pointer;
+  font: inherit;
+}
+
+button.secondary {
+  color: #334155;
+  background: #e2e8f0;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.status {
+  min-height: 22px;
+  margin-top: 14px;
+  color: #166534;
+  white-space: pre-wrap;
+}
+
+.status.error {
+  color: #b42318;
+}

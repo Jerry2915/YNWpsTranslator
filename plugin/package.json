@@ -1,0 +1,10 @@
+{
+  "name": "yn-wps-translator",
+  "version": "1.0.0",
+  "description": "WPS 表格中文到印尼语双语翻译加载项",
+  "wpsjs": {
+    "name": "YNWpsTranslator",
+    "addonType": "et",
+    "online": false
+  }
+}

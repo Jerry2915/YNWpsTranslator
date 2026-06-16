@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnAddinLoad">
+  <ribbon startFromScratch="false">
+    <tabs>
+      <tab id="ynTranslatorTab" label="RBI表格翻译助手">
+        <group id="ynTranslateGroup" label="双语翻译">
+          <button id="btnTranslateSelection" label="翻译选区" screentip="翻译当前选中的单元格文本" onAction="OnAction" getImage="GetImage" size="large"/>
+          <button id="btnTranslateSheet" label="翻译当前表" screentip="翻译当前工作表中的文本" onAction="OnAction" getImage="GetImage" size="large"/>
+          <button id="btnTranslateWorkbook" label="翻译工作簿" screentip="翻译工作簿中所有工作表的文本" onAction="OnAction" getImage="GetImage" size="large"/>
+        </group>
+        <group id="ynSettingsGroup" label="配置">
+          <button id="btnApiSettings" label="API 设置" onAction="OnAction" getImage="GetImage" size="large"/>
+          <button id="btnGlossary" label="术语表" onAction="OnAction" getImage="GetImage" size="large"/>
+          <button id="btnAbout" label="关于" onAction="OnAction" getImage="GetImage"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>

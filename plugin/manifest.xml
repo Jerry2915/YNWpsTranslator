@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JsPlugin>
+  <ApiVersion>1.0.0</ApiVersion>
+  <Name>YNWpsTranslator</Name>
+  <Description>RBI表格翻译助手 - WPS 表格中/英/印尼语互译加载项</Description>
+</JsPlugin>

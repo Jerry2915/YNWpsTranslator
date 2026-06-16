@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>专业术语表</title>
+  <link rel="stylesheet" href="common.css">
+</head>
+<body>
+  <div class="page">
+    <div class="card">
+      <h1>专业术语表</h1>
+      <p class="hint">当前编辑：<b><span id="langLabel">…</span></b> 术语表。
+        每行一个，格式为“原文=译文”，译文应为上面这个目标语种的写法。
+        翻译时会优先使用这里的固定译法。<br>
+        如需编辑其它语种的术语，请先在“API 设置”里切换目标语种。</p>
+      <textarea id="entries" spellcheck="false" placeholder="上岗培训=Pelatihan sebelum bertugas&#10;一线岗位=Posisi lini depan"></textarea>
+      <div class="row">
+        <button id="saveButton">保存术语表</button>
+        <button id="closeButton" class="secondary">关闭</button>
+      </div>
+      <div id="status" class="status"></div>
+    </div>
+  </div>
+  <script src="../js/util.js"></script>
+  <script src="../js/api.js"></script>
+  <script src="glossary.js"></script>
+</body>
+</html>
